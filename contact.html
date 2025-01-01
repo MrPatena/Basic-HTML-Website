@@ -23,7 +23,8 @@
                 <h2>Get in touch</h2>
                 <form>
                     <label for="name">Name: </label>
-                    <input type="text" id="name" name="name" pattern="[A-Za-z]" placeholder="Alphabetical only">
+                    <!-- The regex below also allow for spaces between words. -->
+                    <input type="text" id="name" name="name" pattern="^[a-zA-Z]+( [a-zA-Z]+)*$" placeholder="Alphabetical only" required>
                     <br>
                     <label for="email">E-mail: </label>
                     <input type="email" id="email" name="email" placeholder="yourname@example.com" required>
