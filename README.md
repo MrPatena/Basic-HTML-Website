@@ -8,3 +8,5 @@ The aim of this project was to consolidate my knowledge on HTML by creating the 
 - Structure a website using HTML in a semantic way.
 - Structure in a way that you can easily add styles later.
 - Add SEO meta tags to the website.
+
+Project idea can be found at: https://roadmap.sh/projects/basic-html-website
